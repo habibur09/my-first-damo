@@ -1,0 +1,40 @@
+*{
+	margin:0;
+	padding:0;
+}
+header{
+	background-image: url(bac.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+.main-nav{
+	float: right;
+	margin-top: 30px;
+	list-style: none;
+}
+.main-nav li{
+	display: inline-block;
+}
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family:"Roboto",sans-serif;
+	font-size: 15px;
+}
+.main-nav li.active a{
+	border:1px solid white;
+}
+.main-nav li.active a:hover{
+	border:1px dotted #ddd;
+}
+.main-nav li a:hover{
+	border:1px solid white;
+}
+.logo img{
+	width: 100px;
+	margin:auto;
+	float: left;
+	margin-top: 8px;
+	margin-left: 5px;
+}
